@@ -1,0 +1,98 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore-Contextualizer</PackageName>
+      <Author>Velir</Author>
+      <Version>1.2</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>Velir</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Filterable Commands/{F03A670E-273E-4B66-B51D-D9721DD694D0}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Filterable Commands/Commands/{3C16B828-9F51-422B-9A02-B87F49C05C6A}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Filterable Commands/Filters/{1E99EFE8-22FD-46D0-A12A-305709A11AA5}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/{EF304441-CF04-4691-AC82-D8BDCD55DB4A}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Command/__Standard Values/{93FF5043-62C9-44D2-BA22-CD8052FF3DA3}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Command/{AEE09A03-6B16-4731-BD16-E158AF6209BF}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Command/Data/{7EB80A04-8887-41A7-BE5D-7A9A82942DF1}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Command/Data/Command Name/{4B352B88-DFE2-4055-9274-DDCAA4679C34}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Command/Data/Filters/{1F1E81AA-9BD0-4DF8-8264-4028F90C4A53}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/{CE2691E8-9D65-4727-B506-5E6DA369B405}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Generic Filter/__Standard Values/{A27733E4-FF43-4D76-9682-648E58B03DA7}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Generic Filter/{CD422DF6-C5A0-4966-A772-14628CC6D106}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Generic Filter/Data/{37269FF7-C271-4B6D-8B7F-6EBF2FFF89D8}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Generic Filter/Data/Type/{48FC411A-5594-4320-AF90-20BD6A904D79}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Hierarchy Filter/__Standard Values/{42EB5646-BE02-45E6-928E-12B505DFCA20}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Hierarchy Filter/{0CB6AF49-4E30-4CBD-94D2-24D352BA7097}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Hierarchy Filter/Data/{2F93BFCC-EEA5-4476-8F91-81D14A115C5D}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Hierarchy Filter/Data/Root Item/{2F9AA573-EA09-45C7-85C0-43A980BF5ED1}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Template Filter/__Standard Values/{0C82E7EE-A752-4DE1-A554-C4691FB8AEA2}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Template Filter/{3D471FDB-8FFA-4E65-8A26-0AF5D326217C}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Template Filter/Data/{3D7426B7-14A2-4D77-9C79-ECCFFE6AEC30}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Template Filter/Data/Exclude Templates/{5181D99E-5ACC-40F0-A551-3B8FAA67798F}/invariant/0</x-item>
+        <x-item>/core/sitecore/templates/User Defined/Modules/Contextualizer/Filters/Template Filter/Data/Include Templates/{E01DBB35-C7C4-4A25-A59A-D4E3D49172B4}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Core Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/Contextualizer.config</x-item>
+        <x-item>/bin/Sitecore.SharedSource.CodImporter.dll</x-item>
+        <x-item>/bin/Sitecore.SharedSource.Commons.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
