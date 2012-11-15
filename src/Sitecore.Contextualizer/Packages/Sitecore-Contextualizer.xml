@@ -2,7 +2,7 @@
   <Metadata>
     <metadata>
       <PackageName>Sitecore-Contextualizer</PackageName>
-      <Author>Velir</Author>
+      <Author>Chris Leggett</Author>
       <Version>1.2</Version>
       <Revision />
       <License />
@@ -64,8 +64,8 @@
     <xfiles>
       <Entries>
         <x-item>/App_Config/Include/Contextualizer.config</x-item>
-        <x-item>/bin/Sitecore.SharedSource.CodImporter.dll</x-item>
         <x-item>/bin/Sitecore.SharedSource.Commons.dll</x-item>
+        <x-item>/bin/Sitecore.SharedSource.Contextualizer.dll</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
