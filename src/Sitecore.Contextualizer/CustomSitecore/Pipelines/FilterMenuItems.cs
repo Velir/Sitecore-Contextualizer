@@ -151,16 +151,16 @@ namespace Sitecore.SharedSource.Contextualizer.CustomSitecore.Pipelines
 
 			//go through each child item and add them to our dictionary.
 			Dictionary<string, Item> commandItems = new Dictionary<string, Item>(parentItem.Children.Count);
-			foreach (Item childItem in parentItem.Children)
+			foreach (Item descendantItem in parentItem.Axes.GetDescendants())
 			{
 				//if we are not dealing with a command item then just continue.
-				if (!childItem.IsOfTemplate(CommandItem.TemplateId))
+				if (descendantItem == null || !descendantItem.IsOfTemplate(CommandItem.TemplateId))
 				{
 					continue;
 				}
 
 				//get our command item as the proper custom item type
-				CommandItem commandItem = childItem;
+				CommandItem commandItem = descendantItem;
 
 				//get our command text so we can pull out our command name
 				string commandText = commandItem.CommandName;
